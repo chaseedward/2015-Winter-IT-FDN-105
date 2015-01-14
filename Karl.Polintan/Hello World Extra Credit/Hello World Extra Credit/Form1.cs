@@ -17,9 +17,20 @@ namespace Hello_World_Extra_Credit
             InitializeComponent();
         }
 
-        private void btnMsg_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello World");
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.displayText.Text += "Hello World!";
+            this.displayText.Text += Environment.NewLine;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
