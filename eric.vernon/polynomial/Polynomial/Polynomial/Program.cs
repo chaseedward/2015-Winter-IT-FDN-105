@@ -14,6 +14,7 @@ namespace Polynomial
             double calc = 0;
             string formula = ("3x^3 - 5x^2 + 6");
 
+            //need to add error checking at some point
             Console.Write("Please enter a whole number: ");
             string input = Console.ReadLine();
 
