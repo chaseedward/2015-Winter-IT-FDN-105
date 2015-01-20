@@ -4,15 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace homework1._1
+namespace classpracticeweek2
 {
     class Program
     {
         static void Main(string[] args)
+        private int countOfStudent = 10;
+ 
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadLine();
         }
-
     }
 }
