@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Hello_World_Extra_Credit
+namespace Extra_Form_HelloWorld
 {
     public partial class Form1 : Form
     {
@@ -17,20 +17,14 @@ namespace Hello_World_Extra_Credit
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            this.displayText.Text += "Hello World!";
-            this.displayText.Text += Environment.NewLine;
+            label1.Text = "Hello, World!";
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+
         }
     }
 }

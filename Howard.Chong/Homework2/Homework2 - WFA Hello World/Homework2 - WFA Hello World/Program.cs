@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Hello_World_Extra_Credit
+namespace Homework2___WFA_Hello_World
 {
     static class Program
     {
@@ -14,11 +14,9 @@ namespace Hello_World_Extra_Credit
         [STAThread]
         static void Main()
         {
-           
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-         
         }
     }
 }
