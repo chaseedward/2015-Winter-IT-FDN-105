@@ -27,10 +27,19 @@ namespace HelloWorld_Form_Session2
          if (comboBox1.Text == "Choose One")
          {
              MessageBox.Show("Please choose from the dropdown list");
+             lblHello.Visible = false;
+         }
+         if (comboBox1.Text == "Hello World!")
+         {
+             lblHello.Visible = true;
+             lblHello.Text = comboBox1.Text;
+         }
+         if (comboBox1.Text == "What's for dinner?")
+         {
+             lblHello.Visible = true;
+             lblHello.Text = comboBox1.Text;
          }
             
-            lblHello.Visible = true;
-            lblHello.Text = comboBox1.Text;
         }
 
     }
