@@ -52,6 +52,7 @@
             this.btnGreet.TabIndex = 1;
             this.btnGreet.Text = "Greet me!";
             this.btnGreet.UseVisualStyleBackColor = true;
+            this.btnGreet.Click += new System.EventHandler(this.btnGreet_Click);
             // 
             // textBox1
             // 
