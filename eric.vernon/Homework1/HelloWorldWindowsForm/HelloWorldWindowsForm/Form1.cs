@@ -21,5 +21,16 @@ namespace HelloWorldWindowsForm
         {
            
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGreet_Click(object sender, EventArgs e)
+        {
+            lblGreeting.Name = textBox1.Text;
+            //text
+        }
     }
 }
