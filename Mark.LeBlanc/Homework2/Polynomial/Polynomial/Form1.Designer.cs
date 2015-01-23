@@ -64,7 +64,7 @@
             this.Polynomial_list.Name = "Polynomial_list";
             this.Polynomial_list.Size = new System.Drawing.Size(155, 56);
             this.Polynomial_list.TabIndex = 2;
-            this.Polynomial_list.SelectedIndexChanged += new System.EventHandler(this.Polynomial_list_SelectedIndexChanged);
+            //this.Polynomial_list.SelectedIndexChanged += new System.EventHandler(this.Polynomial_list_SelectedIndexChanged);
             // 
             // x_value
             // 
@@ -81,7 +81,7 @@
             this.x_value_input.Name = "x_value_input";
             this.x_value_input.Size = new System.Drawing.Size(100, 20);
             this.x_value_input.TabIndex = 4;
-            this.x_value_input.TextChanged += new System.EventHandler(this.x_value_input_TextChanged);
+            //this.x_value_input.TextChanged += new System.EventHandler(this.x_value_input_TextChanged);
             // 
             // Evaluate
             // 

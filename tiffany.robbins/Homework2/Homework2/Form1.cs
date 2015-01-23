@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HelloWorldWindowsForm
+namespace Homework2
 {
     public partial class Form1 : Form
     {
@@ -17,20 +17,14 @@ namespace HelloWorldWindowsForm
             InitializeComponent();
         }
 
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-           
+            MessageBox.Show("Hello World");
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnGreet_Click(object sender, EventArgs e)
-        {
-            lblGreeting.Name = textBox1.Text;
-            //text
+            MessageBox.Show("It's Beer O'clock!");
         }
     }
 }
