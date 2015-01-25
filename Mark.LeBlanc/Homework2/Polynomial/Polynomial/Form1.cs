@@ -27,16 +27,6 @@ namespace Polynomial
             Polynomial_list.DataSource = _items;
         }
 
-        private void Polynomial_list_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void x_value_input_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void Evaluate_Click(object sender, EventArgs e)
         {
             bool result = double.TryParse(x_value_input.Text, out xValue);
