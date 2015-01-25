@@ -5,35 +5,19 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-class TestWhile
+internal class Multiply
 {
-    static void Main()
+    private static void Main(string[] args)
     {
-        int x;
-        int y = 0;
-
-        x = 1;
-        while (x < 1000)
+        for (int i = 1; i <= 5; i++) //will start as 1 * all interations of j below, then 2 * iterations of j below, etc. until 5 is reached.
         {
-            y = y + x;
-
-            if (y > 20)
+            for (int j = 1; j <= 5; j++)
             {
-                // exits the loop
-                break;
+                Console.Write(i*j + "\t"); // "\t" is a tab to align the columns
             }
-
-            if (y == 10)
-            {
-                // skips remainder of loop body
-                continue;
-            }
-
-            Console.WriteLine("{0} {1}", x, y);
-
-            x++;
+            Console.Write("\n"); // "\n" is a carriage return to make the loop continue on a different line
         }
-        
+
         Console.ReadLine();
     }
 }
