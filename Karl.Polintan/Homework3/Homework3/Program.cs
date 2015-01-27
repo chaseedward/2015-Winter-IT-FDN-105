@@ -10,12 +10,17 @@ namespace Homework3
     {
         static void Main(string[] args)
         {
-            Console.Write("(0,-3)", 1);
-            Console.Write("(0,-3)", 2);
-            Console.Write("(0,-3)", 3);
-            Console.Write("(0,-3)", 4);
-            Console.WriteLine("(0,-3) (1,-3) (2,-3) (3,-3)", 1, 2, 22, 400);
+            for (var x = 1; x <= 4; x++) // column variable, only runs to 4 so console write line works for row 5.
+            {
+                for (var y = 1; y <= 5; y++) // row variable.
+                {
+                    Console.Write("{0,-3}", (x*y));
 
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine("{0,-2} {1,-2} {2,-2} {3,-2} {4,-2}", 5, 10, 15, 20, 25);
+            // added WriteLine from in class, just for variety.
 
             Console.ReadLine();
         }
