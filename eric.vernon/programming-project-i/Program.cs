@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Eric Vernon
+using System;
 
 namespace programming_project_i
 {
