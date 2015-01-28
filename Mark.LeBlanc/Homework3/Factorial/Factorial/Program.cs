@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Win32;
+using System.Numerics;
 
 namespace Factorial
 {
@@ -22,7 +17,7 @@ namespace Factorial
             {
                 var consoleInput = "";          //Read string from console
                 var userInt = 0;                //Variable to hold int parsed from console input string
-                long accumulator = 1;           //Long variable to hold factorial product
+                System.Numerics.BigInteger accumulator = 1;           //Long variable to hold factorial product
                 var promptModeExit = false;     //Flag to exit prompt mode. Stay in prompt mode while false
                 
                 Console.Write("\nn:"); //User input prompt
@@ -48,7 +43,7 @@ namespace Factorial
                         Console.WriteLine(); //append a newline to the console output for nicer formatting
                         
                         //Calculate the factorial
-                        for (var i = 1; i <= userInt; i++)
+                        for (int i = 1; i <= userInt; i++)
                         {
                             accumulator = accumulator * i;
 
