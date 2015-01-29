@@ -33,10 +33,11 @@ namespace Homework4
                         minnum = num[i];
                     }
                     //I have a bug here that I can't figure out. 
+                    /*
                     if (num[i] > num[j])
                     {
                         maxnum = num[i];
-                    }
+                    } */
                 }
                     
             }
