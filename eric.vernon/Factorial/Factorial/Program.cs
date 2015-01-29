@@ -14,7 +14,7 @@ namespace Factorial
             int num = int.Parse(Console.ReadLine());
             int factorial = 0;
 
-            for (int i = num; i <= 0; i++)
+            for (int i = 1; i < num; i++)
             {
                 factorial = factorial + (num * (num - i));
                 Console.WriteLine(factorial.ToString());
