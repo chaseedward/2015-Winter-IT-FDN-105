@@ -20,28 +20,32 @@ namespace Homework4
 
             //brute force method
             int[] num = { 5, -2, 100, 12, 4, -5 };
-            int len = num.Length;
+            
             int maxnum = 0;
             int minnum = 0;
+            int temp = 0; //temp var for sort
+            int len = num.Length; //length of array for use later
 
-            for (int i = 0; i < len; i++)
+            for (int i = 0; i < num.Length; i++)
             {
-                for (int j = 1; j < len - 1; j++)
+                for (int j = 0; j < num.Length - 1; j++)
                 {
-                    if (num[i] < num[j])
+                    if (num[j] > num[j + 1])
                     {
-                        minnum = num[i];
+                        temp = num[j + 1];
+                        num[j + 1] = num[j];
+                        num[j] = temp;
                     }
-                    //I have a bug here that I can't figure out. 
-                    /*
-                    if (num[i] > num[j])
-                    {
-                        maxnum = num[i];
-                    } */
                 }
-                    
             }
 
+            for (int k = 0; k < num.Length; k++)
+            {
+                Console.Write(num[k] + " ");
+            }
+            Console.WriteLine();
+            minnum = num[0];
+            maxnum = num[len - 1];
             Console.WriteLine("Min number in array is {0}", minnum);
             Console.WriteLine("Max number in array is {0}", maxnum);
 
