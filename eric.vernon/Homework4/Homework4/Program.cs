@@ -18,7 +18,7 @@ namespace Homework4
             Console.WriteLine("Max number in array is {0}", max);
             Console.WriteLine();
 
-            //brute force method
+            //brute force method sorting the array
             int[] num = { 5, -2, 100, 12, 4, -5 };
             
             int maxnum = 0;
