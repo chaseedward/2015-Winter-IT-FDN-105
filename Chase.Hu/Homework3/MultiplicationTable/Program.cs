@@ -12,7 +12,7 @@ namespace MultiplicationTable
         {
             for (int i = 1; i < 6; i++)
             {
-                Console.Write("{0,5}", i);
+               Console.Write("{0,5}", i);
 
                 for (int j = 1; j < 2; j++)
                 {

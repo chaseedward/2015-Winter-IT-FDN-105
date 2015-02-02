@@ -42,7 +42,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(140, 70);
+            this.button1.Location = new System.Drawing.Point(171, 67);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -73,21 +73,21 @@
             // homeToolStripMenuItem
             // 
             this.homeToolStripMenuItem.Name = "homeToolStripMenuItem";
-            this.homeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.homeToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.homeToolStripMenuItem.Text = "Home";
             this.homeToolStripMenuItem.Click += new System.EventHandler(this.homeToolStripMenuItem_Click);
             // 
             // goForwardToolStripMenuItem
             // 
             this.goForwardToolStripMenuItem.Name = "goForwardToolStripMenuItem";
-            this.goForwardToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.goForwardToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.goForwardToolStripMenuItem.Text = "Go Forward";
             this.goForwardToolStripMenuItem.Click += new System.EventHandler(this.goForwardToolStripMenuItem_Click);
             // 
             // goBackToolStripMenuItem
             // 
             this.goBackToolStripMenuItem.Name = "goBackToolStripMenuItem";
-            this.goBackToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.goBackToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.goBackToolStripMenuItem.Text = "Go Back";
             this.goBackToolStripMenuItem.Click += new System.EventHandler(this.goBackToolStripMenuItem_Click);
             // 

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldForm", "HelloWorl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework2GoingFurther", "Homework2GoingFurther\Homework2GoingFurther.csproj", "{8F16E0EC-3239-4A97-A51A-307F06A8EA3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polynomial", "Polynomial\Polynomial.csproj", "{FC9EE365-1AB4-41FC-B804-FBE176D0FE88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8F16E0EC-3239-4A97-A51A-307F06A8EA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F16E0EC-3239-4A97-A51A-307F06A8EA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F16E0EC-3239-4A97-A51A-307F06A8EA3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC9EE365-1AB4-41FC-B804-FBE176D0FE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9EE365-1AB4-41FC-B804-FBE176D0FE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9EE365-1AB4-41FC-B804-FBE176D0FE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9EE365-1AB4-41FC-B804-FBE176D0FE88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
