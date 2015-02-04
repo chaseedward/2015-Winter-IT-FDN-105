@@ -34,6 +34,7 @@ namespace LoopingArray
             Console.WriteLine(" ");
             Console.Write("Press [Enter] to Continue: ");
             Console.ReadLine();
+            Console.WriteLine(" ");
         }
     }
 }
