@@ -29,11 +29,7 @@ namespace LoopingArray
             Console.WriteLine("An Array Using a Single Loop:");
             for (row = 1; row < 6; row++)
             {
-                Console.Write("{0,-3}", row);
-                Console.Write("{0,-3}", row * 2);
-                Console.Write("{0,-3}", row * 3);
-                Console.Write("{0,-3}", row * 4);
-                Console.WriteLine("{0,-3}", row * 5);
+                Console.WriteLine("{0,-3}{1,-3}{2,-3}{3,-3}{4,-3}", row, row * 2, row * 3, row * 4, row * 5);
             }
             Console.WriteLine(" ");
             Console.Write("Press [Enter] to Continue: ");
