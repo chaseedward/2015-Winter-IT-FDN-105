@@ -22,15 +22,29 @@ namespace HW2_Davey_extraPt2
         
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            //convert int Counter to string
-            Counter = Int32.Parse(textBox1.Text);
+            //part 3 requirement
+            if (Counter > 10)
+            { 
+                textBox1.Text = "0";
+                //dont know why this displays twice???
+                MessageBox.Show("Number is to big!");
+               
+            }
+
+            else
+            {
+
+
+                Counter = Int32.Parse(textBox1.Text);
+            }
+            
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            
             Counter++;
-            //convert int Counter to string
             textBox1.Text = Convert.ToString(Counter);
         }
     }
