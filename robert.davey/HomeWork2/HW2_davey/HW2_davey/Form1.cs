@@ -10,11 +10,7 @@ using System.Windows.Forms;
 
 namespace HW2_davey
 {
-    internal enum Turn
-    {
-        x,
-        o,
-    };
+   
     public partial class Form1 : Form
     {
         public Form1()
@@ -22,7 +18,7 @@ namespace HW2_davey
             InitializeComponent();
         }
 
-        
+        //step 1
         private void OnButtonClick(object sender, EventArgs e)
         {
             
