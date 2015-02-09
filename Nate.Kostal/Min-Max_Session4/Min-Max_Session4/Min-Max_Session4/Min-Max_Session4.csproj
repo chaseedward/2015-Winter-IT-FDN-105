@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{11B17EFA-4874-42C2-97F5-EFB0421F73C0}</ProjectGuid>
+    <ProjectGuid>{E3598A9C-2088-4480-91BE-7EB4994B6736}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>programming_project_i</RootNamespace>
-    <AssemblyName>programming-project-i</AssemblyName>
+    <RootNamespace>Min_Max_Session4</RootNamespace>
+    <AssemblyName>Min-Max_Session4</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
