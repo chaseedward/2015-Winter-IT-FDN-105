@@ -1,4 +1,4 @@
-﻿//Eric Vernon testing
+﻿//Eric Vernon
 using System;
 
 namespace programming_project_i
@@ -104,7 +104,9 @@ namespace programming_project_i
                         quitting = true;
                         break;
                     default:
-                        Console.WriteLine("Invalid option");
+                        Console.WriteLine("Invalid option. Press enter to continue");
+                        Console.ReadLine();
+                        Console.Clear();
                         break;
                 }
             }

@@ -29,18 +29,15 @@ namespace programming_project_i
                 "Quit",
             };
 
+            var menu = new Menu(menuItems);
+
             var quitting = false;
 
             while (!quitting)
             {
-                int menuItemNumber = 1;
-                foreach (string menuItem in menuItems)
-                {
-                    Console.WriteLine("{0}. {1}", menuItemNumber++, menuItem);
-                }
+                menu.Display();
 
-                Console.Write("Choose menu item: ");
-                var menuOption = Console.ReadLine();
+                var menuOption = menu.GetMenuOption();
 
                 switch (menuOption)
                 {
