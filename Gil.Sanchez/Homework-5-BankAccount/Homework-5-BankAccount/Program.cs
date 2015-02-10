@@ -27,8 +27,7 @@ namespace Homework_5_BankAccount
 
         {
             Program acc = new Program();
-            Console.WriteLine("Your Balance is:$ "  + acc.GetBalance  ());
-            ;
+            Console.WriteLine("Your Balance is:$ " + acc.GetBalance());
             Console.WriteLine("Your Deposit is:  " + acc.GetDeposit());
             Console.WriteLine("Your Withdraw is: " + acc.GetWithdraw());
             Console.ReadKey();
@@ -36,10 +35,3 @@ namespace Homework_5_BankAccount
     }
 }
 
-/*static void Main()
-        {
-            var acct = new BankAccount();
-            acct.Deposit(200.00);
-            acct.Withdrawal(40.00);
-            Console.WriteLine("Balance {0:C}", acct.Balance());
-            Console.ReadLine(); */
