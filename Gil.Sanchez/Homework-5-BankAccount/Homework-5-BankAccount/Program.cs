@@ -36,10 +36,3 @@ namespace Homework_5_BankAccount
     }
 }
 
-/*static void Main()
-        {
-            var acct = new BankAccount();
-            acct.Deposit(200.00);
-            acct.Withdrawal(40.00);
-            Console.WriteLine("Balance {0:C}", acct.Balance());
-            Console.ReadLine(); */
