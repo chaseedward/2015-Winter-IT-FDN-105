@@ -13,9 +13,9 @@ namespace HW5_Davey
 
     public partial class Form1 : Form
     {
-        decimal balance ;
-        private decimal withdrawl;
-        private decimal deposit;
+        
+       decimal withdrawl;
+       decimal deposit;
 
         public Form1()
         {
@@ -30,12 +30,13 @@ namespace HW5_Davey
 
         }
 
+        
         //enter withdrawl value into textbox, convert to decimal
         private void WithdrawlBox_TextChanged(object sender, EventArgs e)
         {
             withdrawl = decimal.Parse(WithdrawlBox.Text);
         }
-
+        private decimal balance ;
         //calculate blance
         private void Balance_Click(object sender, EventArgs e)
         {
