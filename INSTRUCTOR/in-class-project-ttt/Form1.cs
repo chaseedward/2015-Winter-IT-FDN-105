@@ -7,17 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ttt.core;
 
 namespace in_class_project_ttt
 {
-    enum Turn
-    {
-        X,
-        O,
-    };
-
+   
     public partial class Form1 : Form
     {
+        private Board board = new Board();
+
         public Form1()
         {
             InitializeComponent();
@@ -32,26 +30,37 @@ namespace in_class_project_ttt
             grid[2, 0] = button7;
             grid[2, 1] = button8;
             grid[2, 2] = button9;
+
+            // TOO HARD and FRAGILE
+            //button1.Tag = "0,0";
+            //button2.Tag = "0,1";
+            //button3.Tag = "0,2";
+
+            //for (row)
+            //    for (cols)
+            //    {
+            //        grid[row, col].Tag = string.Format("{0},{1}", row, col);
+            //    }
         }
 
         private Button[,] grid;
-
-        private Turn turn = Turn.X;
 
         private void OnButtonClick(object sender, EventArgs e)
         {
             var button = (Button)sender;
 
-            button.Text = turn.ToString();
+            //board.Tag()
 
-            if (turn == Turn.X)
-            {
-                turn = Turn.O;
-            }
-            else
-            {
-                turn = Turn.X;
-            }
+            //button.Text = board.Turn.ToString();
+
+            //if (board.Turn == Turn.X)
+            //{
+            //    turn = Turn.O;
+            //}
+            //else
+            //{
+            //    turn = Turn.X;
+            //}
 
             //if (button1.Text == button2.Text && button2.Text == button3.Text)
             //{
