@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace homework6_testing
 {
     [TestClass]
-    public class UnitTest1
+    public class MyMathTests
     {
         private MyMath myMath;
 
@@ -39,6 +39,8 @@ namespace homework6_testing
         [TestMethod]
         public void TestDivide()
         {
+            // When you divide 16/24 do you actually get .666666667?
+            // Explain why this may not work.
             var result = MyMath.Divide(16, 24);
             Assert.AreEqual(.667, result);
         }

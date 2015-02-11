@@ -16,6 +16,7 @@ namespace homework6
             int a = 0;
             int b = 1;
 
+            // Where do these WriteLines show up?
             Console.WriteLine(0);
             if (len == 0 || len == 1)
             {
