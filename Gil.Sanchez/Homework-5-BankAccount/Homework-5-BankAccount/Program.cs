@@ -27,8 +27,7 @@ namespace Homework_5_BankAccount
 
         {
             Program acc = new Program();
-            Console.WriteLine("Your Balance is:$ "  + acc.GetBalance  ());
-            ;
+            Console.WriteLine("Your Balance is:$ " + acc.GetBalance());
             Console.WriteLine("Your Deposit is:  " + acc.GetDeposit());
             Console.WriteLine("Your Withdraw is: " + acc.GetWithdraw());
             Console.ReadKey();

@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "in-class-project-ttt", "in-class-project-ttt.csproj", "{539B5873-5193-485D-88A7-74CF28C08E69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ttt.core", "ttt.core\ttt.core.csproj", "{5930912A-CADF-49F2-8F00-077DA87D9076}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{539B5873-5193-485D-88A7-74CF28C08E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{539B5873-5193-485D-88A7-74CF28C08E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{539B5873-5193-485D-88A7-74CF28C08E69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5930912A-CADF-49F2-8F00-077DA87D9076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5930912A-CADF-49F2-8F00-077DA87D9076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5930912A-CADF-49F2-8F00-077DA87D9076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5930912A-CADF-49F2-8F00-077DA87D9076}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

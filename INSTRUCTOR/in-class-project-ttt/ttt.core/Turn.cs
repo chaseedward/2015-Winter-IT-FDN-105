@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework5_Bank
+namespace ttt.core
 {
-    class Program
+    public enum Turn
     {
-        static void Main(string[] args)
-        {
-        }
-    }
+        X,
+        O,
+    };
 }
