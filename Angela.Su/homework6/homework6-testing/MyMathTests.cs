@@ -8,11 +8,13 @@ namespace homework6_testing
     public class MyMathTests
     {
         private MyMath myMath;
+        private fibonacci myFibonacci;
 
         [TestInitialize]
         public void Setup()
         {
             myMath = new MyMath();
+            myFibonacci = new fibonacci();
         }
 
         [TestMethod]
@@ -32,7 +34,7 @@ namespace homework6_testing
         [TestMethod]
         public void TestMultiply()
         {
-            var result = MyMath.Multiply(16, 24);
+            var result = myMath.Multiply(16, 24);
             Assert.AreEqual(384, result);
         }
 
@@ -41,8 +43,19 @@ namespace homework6_testing
         {
             // When you divide 16/24 do you actually get .666666667?
             // Explain why this may not work.
-            var result = MyMath.Divide(16, 24);
+            // my function casts the division quotient to decimal to get decimal numbers
+            // my function rounds decimal to 3 places to get .667
+            var result = myMath.Divide(16, 24);
             Assert.AreEqual(.667, result);
+        }
+
+        [TestMethod]
+        public void TestFibonacci()
+        {
+            // Fibonacci number of 9 = 21
+            // Fibonacci number of 8 = 13
+            var result = fibonacci.Calc(9);
+            Assert.AreEqual(13, result);
         }
     }
 }
