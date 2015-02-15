@@ -54,8 +54,10 @@ namespace homework6_testing
         {
             // Fibonacci number of 9 = 21
             // Fibonacci number of 8 = 13
-            var result = fibonacci.Calc(9);
-            Assert.AreEqual(13, result);
+            var result8 = fibonacci.Calc(8);
+            var result9 = fibonacci.Calc(9);
+            Assert.AreEqual(13, result8);
+            Assert.AreEqual(21, result9);
         }
     }
 }
