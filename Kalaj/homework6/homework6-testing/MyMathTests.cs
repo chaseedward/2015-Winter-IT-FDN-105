@@ -44,5 +44,13 @@ namespace homework6_testing
             var result = MyMath.Divide(16, 24);
             Assert.AreEqual(.667, result);
         }
+
+        //test that fibonacci.Calc(9) is 13
+        [TestMethod]
+        public void TestFibonacci()
+        {
+            var result = fibonacci.Calc(9);
+            Assert.AreEqual(13, result);
+        }
     }
 }
