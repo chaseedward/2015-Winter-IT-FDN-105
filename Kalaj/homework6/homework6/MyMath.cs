@@ -37,7 +37,8 @@ namespace homework6
         public static decimal Divide(decimal x, decimal y)
         {
             Result = x/y;
-            return Result;
+            //give an output rounded to three decimal places
+            return Math.Round(Result, 3);
         }
     }
 }
