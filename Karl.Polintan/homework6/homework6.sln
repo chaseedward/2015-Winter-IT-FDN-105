@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework6", "homework6.csproj", "{A6F02549-87D5-49DE-9E49-EE0B4F4D8945}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework6", "homework6\homework6.csproj", "{A6F02549-87D5-49DE-9E49-EE0B4F4D8945}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework6-testing", "homework6-testing\homework6-testing.csproj", "{67B1278A-2CFF-480B-A98F-E5BF5C152415}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A6F02549-87D5-49DE-9E49-EE0B4F4D8945}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6F02549-87D5-49DE-9E49-EE0B4F4D8945}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6F02549-87D5-49DE-9E49-EE0B4F4D8945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67B1278A-2CFF-480B-A98F-E5BF5C152415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B1278A-2CFF-480B-A98F-E5BF5C152415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B1278A-2CFF-480B-A98F-E5BF5C152415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B1278A-2CFF-480B-A98F-E5BF5C152415}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
