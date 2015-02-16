@@ -16,7 +16,7 @@ namespace homework6_testing
         }
 
         //test that fibonacci.Calc(9) is 13
-        //TODO: Figure out why it's 21 instead of 13
+        //Result: It's 21 instead of 13
         [TestMethod]
         public void TestFibonacci()
         {
@@ -51,7 +51,7 @@ namespace homework6_testing
             // When you divide 16/24 do you actually get .666666667?
             // Explain why this may not work.
            //Answer: Would need to round output to 3 decimals.
-           //Issue: I'm able to get .667, but it's a decimal instead of the "expected double"
+           //Issue: I'm able to get .667, but it's a decimal instead of the "expected" double
             var result = MyMath.Divide(16, 24);
             Assert.AreEqual(.667, result);
         }
