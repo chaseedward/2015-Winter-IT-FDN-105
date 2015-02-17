@@ -1,4 +1,4 @@
-﻿\using System;
+﻿using System;
 using homework6;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -32,7 +32,7 @@ namespace homework6_testing
         [TestMethod]
         public void TestMultiply()
         {
-            var result = MyMath.Multiply(16, 24);
+            var result = myMath.Multiply(16, 24);
             Assert.AreEqual(384, result);
         }
 
@@ -41,8 +41,15 @@ namespace homework6_testing
         {
             // When you divide 16/24 do you actually get .666666667?
             // Explain why this may not work.
-            var result = MyMath.Divide(16, 24);
-            Assert.AreEqual(.667, result);
+            //
+            // I changed the test parameter to round the number instead of the operation
+            // because that allows the Divide method to be more faithful to actual
+            // division.  But...it still does seem to get weird at the end of the
+            // 6's when you don't do any rounding.  Probably a vagary of the float
+            // variable...   -- Tristan
+            //
+            var result = myMath.Divide(16, 24);
+            Assert.AreEqual(.667, Math.Round(result,3,MidpointRounding.AwayFromZero));
         }
     }
 }

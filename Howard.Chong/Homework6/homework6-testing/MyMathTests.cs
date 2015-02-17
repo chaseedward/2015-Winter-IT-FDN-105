@@ -1,4 +1,4 @@
-﻿\using System;
+﻿using System;
 using homework6;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -43,6 +43,20 @@ namespace homework6_testing
             // Explain why this may not work.
             var result = MyMath.Divide(16, 24);
             Assert.AreEqual(.667, result);
+
+            //I got 0.6666666a lot of 6 7 as the answer
+            //This may not work because the Assert is set to equal .667 as the set number
+            //But it doesn't account for rounding a repeating number up to .667
         }
+
+
+        //Write a test to verifiy that fibonacci.Calc(9) is 13.
+        [TestMethod]
+        public void TestFibonacciCalc()
+        {
+            var result = fibonacci.Calc(9);
+            Assert.AreEqual(13, result);
+        }
+        //Test results are negative.
     }
 }
