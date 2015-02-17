@@ -1,12 +1,8 @@
 ﻿using homework6;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-\using System;
-using homework6;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 
 namespace homework6_testing
-{
-   namespace homework6_testing
 {
     [TestClass]
     public class MyMathTests
@@ -20,10 +16,11 @@ namespace homework6_testing
         }
 
         /* test that fibonacci.Calc(9) is 13
-         * Result:*/ 
+         * Result: fibonacci.cal(9) is 21. Not 13. 
+         Would have to change to fibonacci.Calc(8) */
 
         [TestMethod]
-        
+
         public void TestFibo()
         {
             var result = fibonacci.Calc(9);
@@ -56,6 +53,7 @@ namespace homework6_testing
         {
             // When you divide 16/24 do you actually get .666666667?
             // Explain why this may not work.
+            // Likely because of a type mismatch? Also despite rounding the test still fails, depends on the type of number.
             var result = MyMath.Divide(16, 24);
             Assert.AreEqual(.667, result);
         }

@@ -26,17 +26,17 @@ namespace homework6
         }
 
         //Multiply
-        public decimal Multiply(decimal x, decimal y)
+        public static decimal Multiply(decimal x, decimal y)
         {
             Result = x * y;
             return Result;
         }
 
         //Divide
-        public decimal Divide(decimal x, decimal y)
+        public static decimal Divide(decimal x, decimal y)
         {
             Result = x / y;
-            return Result;
+            return Math.Round(Result, 3);
         }
     }
 }
