@@ -1,8 +1,12 @@
-﻿\using System;
+﻿using homework6;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+\using System;
 using homework6;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace homework6_testing
+{
+   namespace homework6_testing
 {
     [TestClass]
     public class MyMathTests
@@ -13,6 +17,17 @@ namespace homework6_testing
         public void Setup()
         {
             myMath = new MyMath();
+        }
+
+        /* test that fibonacci.Calc(9) is 13
+         * Result:*/ 
+
+        [TestMethod]
+        
+        public void TestFibo()
+        {
+            var result = fibonacci.Calc(9);
+            Assert.AreEqual(13, result);
         }
 
         [TestMethod]
