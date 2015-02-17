@@ -17,6 +17,10 @@ namespace homework6
             int b = 1;
 
             // Where do these WriteLines show up?
+            //
+            // They show up at the standard output stream (Console.Out), but 
+            // since the unit tests are not listening for standard output stream 
+            // output, the messages are "lost" for all intents and purposes. 
             Console.WriteLine(0);
             if (len == 0 || len == 1)
             {

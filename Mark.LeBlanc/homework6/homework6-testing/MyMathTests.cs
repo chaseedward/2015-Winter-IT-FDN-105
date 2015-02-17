@@ -15,6 +15,14 @@ namespace homework6_testing
             myMath = new MyMath();
         }
 
+        // Fibonacci test 
+        [TestMethod]
+        public void TestFibonacci()
+        {
+            var result = fibonacci.Calc(9);
+            Assert.AreEqual(21, result);
+        }
+
         [TestMethod]
         public void TestAdd()
         {
@@ -41,6 +49,10 @@ namespace homework6_testing
         {
             // When you divide 16/24 do you actually get .666666667?
             // Explain why this may not work.
+            //
+            // Once you do the cast to double on the integer division, the decimal
+            // precision of the result is much longer than 3 decimal places. Unless You 
+            // specifically apply rounding to 3 decimal places, the Assert will fail in this case.
             var result = MyMath.Divide(16, 24);
             Assert.AreEqual(.667, result);
         }
