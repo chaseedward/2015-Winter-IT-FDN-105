@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Eric Vernon
+
+using System;
 using homework6;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
