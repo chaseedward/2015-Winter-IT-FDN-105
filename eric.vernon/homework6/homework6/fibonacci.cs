@@ -19,6 +19,9 @@ namespace homework6
             int b = 1;
 
             // Where do these WriteLines show up?
+            
+            //These show up in the Unit test output UI
+
             Console.WriteLine(0);
             if (len == 0 || len == 1)
             {
