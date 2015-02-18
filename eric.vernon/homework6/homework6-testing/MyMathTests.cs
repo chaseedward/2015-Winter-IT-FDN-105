@@ -25,7 +25,7 @@ namespace homework6_testing
         [TestMethod]
         public void TestSubtract()
         {
-            var result = myMath.Subtract(16, 24);
+            var result = MyMath.Subtract(16, 24);
             Assert.AreEqual(-8, result);
         }
 
@@ -43,6 +43,13 @@ namespace homework6_testing
             // Explain why this may not work.
             var result = MyMath.Divide(16, 24);
             Assert.AreEqual(.667, result);
+        }
+
+        [TestMethod]
+        public void TestFibCalc()
+        {
+            var result = fibonacci.Calc(9);
+            Assert.AreEqual(21, result);
         }
     }
 }
