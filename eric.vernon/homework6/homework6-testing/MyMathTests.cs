@@ -25,7 +25,7 @@ namespace homework6_testing
         [TestMethod]
         public void TestSubtract()
         {
-            var result = MyMath.Divide(16, 24);
+            var result = MyMath.Subtract(16, 24);
             Assert.AreEqual(-8, result);
         }
 
