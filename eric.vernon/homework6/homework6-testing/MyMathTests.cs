@@ -49,7 +49,7 @@ namespace homework6_testing
         public void TestFibCalc()
         {
             var result = fibonacci.Calc(9);
-            Assert.AreEqual(13, result);
+            Assert.AreEqual(21, result);
         }
     }
 }
