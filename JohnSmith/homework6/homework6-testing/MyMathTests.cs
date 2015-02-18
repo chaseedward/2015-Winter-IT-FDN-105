@@ -1,9 +1,8 @@
 ﻿using System;
-using homework6_fibonacci;
 using homework6_myMath;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace homework6_testing
+namespace homework6_testing_MyMath
 {
     [TestClass]
     public class MyMathTests
@@ -46,22 +45,6 @@ namespace homework6_testing
             Assert.AreEqual(.667, result);
         }
     }
-
-    public class MyFibonacciTests
-    {
-        private Fibonacci _myFibonacci;
-
-        [TestInitialize]
-        public void Setup()
-        {
-            _myFibonacci = new Fibonacci();
-        }
-
-        [TestMethod]
-        public void TestAdd()
-        {
-            var result = _myFibonacci.Calc(9);
-            Assert.AreEqual(21, result);
-        }
-    }
 }
+
+
